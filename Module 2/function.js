@@ -25,3 +25,20 @@ let a= function(num1, num2){
 }
 console.log(a(10,8));
 console.log(a);
+
+
+//IIFE- Immediately invoked function expression
+
+(function(){
+    console.log("hello from iife");
+})()
+
+//IIFE with parameter
+
+//(function(num1,num2){
+  //  console.log(num1+num2);
+//})(10,5);
+
+(function(num1,num2){
+    console.log(num1/num2);
+})(10,5);
