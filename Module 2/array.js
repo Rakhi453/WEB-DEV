@@ -28,3 +28,8 @@ console.log(arr);
 console.log(arr);
 arr.unshift("newly added item");
 console.log(arr);
+
+//5. array length
+
+let length= arr.length;
+console.log(length);
